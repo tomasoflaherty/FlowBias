@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="blog.css">
+<link rel="stylesheet" href="button.css">
+</head>
+<body>
+<div class="header">
+	<div class="container">
+		<div class="btn"><a href="../index.html">Home</a></div> 
+	</div>
+	<h2>Backlog Model</h2>
+</div>
+<div class="row">
+  <div class="leftcolumn">
+ <div class="container">
+ . 
+</div>
+  </div>
+  <div class="middlecolumn">
+    <div class="card">	
+		<h2>Overview</h2>
+		<h5>Last updated/Quality Checked, Feb, 2022</h5>
+		<p>
+			Agile is easy, right?  One backlog across the team(s), right?  
+			That may have been the case 20 years ago when Agile was still primarily small product related.  
+			Just like all new entities, it has since evolved to become something better but unquestionably more complex.  
+			Or really you could say that the environments it now operates in have become unquestionably more complex meaning it needs to draw more on its Lean roots as it evolves.
+			One thing has not changed though:  If you really want to maxamise success, then all work must be defined within the backlog model and <b>all work must be visable</b>
+		</p>
+    </div>
+	<div id="structure" class="card">
+		<h2>Structure</h2>
+		<h5>Last updated/Quality Checked, Feb, 2022</h5>
+		<p>
+			The backlog model is structured in a way that should be intituative to anyone who ever worked to break down something complex into the work items that are required to deliver on it.  
+			Whether this is a transformation program, the addition/replacement of a mission critical system within a solution architecture or a stand alone change required by business.
+			What often gets overlooked is that at a conceptual level, whilst the actual work and technigues may be different, the goal is the same i.e. to build a list of items representing the steps required and options available to realise value.
+			In this case it is the prioritised backlogs that sit at the different levels within an organisation.
+		</p>
+		<p>
+			In order to make sense of the complexity, simplicity is always the best approach.  
+			If something works, use it.  If the backlog at the team level, primarily made up of user stories works, abstract it to the product/project level to deliver Features to the business.  
+			If the product or project is part of something more complex such as a large solution implementation or a complex customer program then focus on something at the right level of abstract from the Feature.  
+			Capabilities is a good ‘standard’ option.  If the solution/program is just one of a number of such items competing for scarce people or resources then represent them appropriately at the portfolio level.  
+			The most standard option used here is Epic, but initiative is also an option.
+			<br><i>Note: Each The framework appears singular, however The portfolio will in reality more often than not consist of multiple lower layers, likewise for solution/program and product/project.</i>
+			<ul>
+				<li>
+					<b>Portfolio</b> - Epics & Initiatives
+				</li>
+				<li>
+					<b>Solution or Program</b> - Capabilities & Program Epics
+				</li>
+				<li>
+					<b>Product or Project</b> - Program Epics & Features
+				</li>
+				<li>
+					<b>Team</b> - Work items such as Stories, Defects, Requests, Spikes, Tasks....
+				</li>
+			</ul>
+		</p>
+		<div style="display: flex; justify-content: center;">
+				<img src="../images/backlogModel.png" alt="The Backlog Model" style="width: 100%">
+			</div>
+    </div>
+	<div id="portfolioBacklog" class="card">
+		<h2>Portfolio</h2>
+		<h5>Last updated/Quality Checked, Feb, 2022</h5>
+		<p>
+			The portfolio is where large items that require stategic or fudicary review are located.  An organisation should have a well defined intake process that determines if a item requires consideration at this level.
+			Even if an item does not require decision making at this level, it should be associated to an item at this level.
+		</p>
+		<p>
+			The portfolio Sync meeting enables a cadence based approach to decision making for the portfolio backlog.  
+			This is where the right stakeholders come together at a regular interval to review the list of upcoming and inflight initiatives and epics that are informed by the organisations vision and strategy so that decisions on where and what to invest in.
+			The regular attendees of this will be the following, however others attend as needed
+			<ul>
+				<li>
+					<b>Portfolio Manager</b> - Facilitator
+				</li>
+				<li>
+					<b>Product Management and/or Customer Management Leadership</b> - Depending on whether its a Product or Customer Program related session or if these go well together in your organisation
+				</li>
+				<li>
+					<b>Strategic Direction Representative</b>
+				</li>
+				<li>
+					<b>Enterprise Architecture</b>
+				</li>
+				<li>
+					<b>Accounting/Finance</b>
+				</li>
+			</ul>
+			The list of prioritised items that are funded and approved at this level, depending on size and complexity, are available to be broken down for prioritisation at wither the Solution/Program or the Product/Project Level.
+			<p>
+				<b>Cadence:</b> A typical cadence for this session is every 2 weeks or more often when change is accelerated
+			</p>
+		</p>
+		<h3>Inputs</h3>
+		<p>
+			The inputs to the backlog for prioritisation are Strategic Goals and Initiatives transformed into Epics.  Each should come with 
+			<ul>
+				<li>
+					<b>A good name</b>
+				</li>
+				<li>
+					<b>A good description</b>
+				</li>
+				<li>
+					<b>A Lean business Case</b>
+				</li>
+				<li>
+					<b>An estimate of effort</b>  - relative to all other Epics
+				</li>
+			</ul>
+		</p>
+    </div>
+	<div id="solutionProgramBacklog" class="card">
+		<h2>Solution or Program Backlog</h2>
+		<h5>Last updated/Quality Checked, Feb, 2022</h5>
+		<p>
+			The Solution, more commonly identified within services as Program, backlog is where prioritised portfolio level list items are broken down to the capabilities and/or Program Epics required to deliver upon the solution intent, which is the major input to this level.
+			Well defined Solution Intent and Design is key to progressing to having a well defined list of capabilities that can be linked to product and/or project organisations, internally or with partners, that will work together to deliver business outcomes.			
+		</p>
+		<p>
+			As most program/product/project managers will be too aware of, there are 3 major streams to consider throughout the delivery of any item of value.  These are Management, Business and Technical.  
+			Whereas at the Team and Product/Project level a mature lean-agile organisation will not need to explicitaly plan for the technical synchronisation, the solution level requires its inclusion regardless of maturity.
+			The ceremonies cadence required to ensure good alignment and prioritisation of business outcomes across these streams are:
+		</p>
+		<p>
+			<b>Solution SoS Cadence:</b> Its best if the cadence matches that of the stansard SoS.  Failing that a typical cadence for success of this session is twice weekly
+			<br><b>Solution Business Sync Cadence:</b> Its best if the cadence matches that of the stansard Product Owner Sync.  Failing that a typical cadence for success of this session is weekly
+			<br><b>Solution Technical Sync Cadence:</b> A typical cadence for success of this session is weekly
+		</p>
+		<h3>Inputs</h3>
+		<p>
+			The inputs to the backlog for prioritisation are Solution Intent, Solution Design and Portfolio Epics.  These are broken into Capabilities and/or Epics at this level.  Each Capability or Epic should come with
+			<ul>
+				<li>
+					<b>A good name</b>
+				</li>
+				<li>
+					<b>A good description</b>
+				</li>
+				<li>
+					<b>The Groups (Internal, Partner or Customer)</b> - responsible for delivery
+				</li>
+				<li>
+					<b>Acceptance Criteria</b>
+				</li>
+				<li>
+					<b>An estimate of effort</b>  - relative to all other items
+				</li>
+			</ul>
+		</p>
+    </div>
+    <div id="productProjectBacklog" class="card">
+		<h2>Product or Project Backlog</h2>
+		<h5>Last updated/Quality Checked, Feb, 2022</h5>
+		<p>
+			The Product, more commonly identified within services as Project, backlog is where items of business value are identified and/or broken down from portfolio and/or colution/program level items.  
+			A major input to the resultant are the requirements of business and end customers.  This is the first level at which a quantifable commitment can be made to the business on what can be delivered via the business and architectural Features.
+			In a mature agile organisation management and business synchronisation is all that needs formal set up as self organisation will already have embedded technical natural networks that ensure technical excelance.
+			The ceremonies cadence required to ensure good alignment and prioritisation of business outcomes across these streams are:
+		</p>
+		<p>
+			<b>SoS Cadence:</b> Its best if the cadence matches that of the stand up.  Failing that a typical cadence for success of this session is three times weekly
+			<br><b>Product Owner Sync Cadence:</b> A typical cadence for success of this session is weekly
+		</p>
+		<h3>Inputs</h3>
+		<p>
+			The inputs to the backlog for prioritisation are Capabilities, Requirements, and Program Epics.  These are broken into Features and/or Epics at this level.  Each Feature or Epic should come with
+			<ul>
+				<li>
+					<b>A good name</b>
+				</li>
+				<li>
+					<b>A good description</b>
+				</li>
+				<li>
+					<b>The Primary Responsible Person</b> - PO for Feature and Product Manager/Business Owner for Epic
+				</li>
+				<li>
+					<b>Acceptance Criteria</b>
+				</li>
+				<li>
+					<b>An estimate of effort</b>  - relative to all other items
+				</li>
+			</ul>
+		</p>
+    </div>
+	<div id="teamBacklog" class="card">
+		<h2>Team Backlog</h2>
+		<h5>Last updated/Quality Checked, Feb, 2022</h5>
+		<p>
+			The Team backlog is where work gets done or in more traditional agile teams where working software gets created.  
+			Leaning on the principle of <b>Make all work Visable</b>, there should not be anything a team does that does not have a representation on the team backlog.
+			Examples of such work are
+			<ul>
+				<li>
+					<b>Stories</b> - These could be from a break down of Feature, the result of a Spike, a piece of refactor work or some item the team has deamed necessary to enble progress
+				</li>
+				<li>
+					<b>Defects</b> - Related to Features already delivered or being delivered
+				</li>
+				<li>
+					<b>Spikes</b> - Items that require investigation or work to enable being ready for the next iteration/sprint
+				</li>
+				<li>
+					<b>Requests</b> - these can be formal such as Service Requests or informal such as pet project work from an senior leader.  
+					Once evaluated on the Team Backlog they may, if large, require rerepresenattion and proioritisation on the product/project backlog
+				</li>
+				<li>
+					<b>Tasks</b> - Some teams prefer to break stories, defects and other work items down to their constitutent parts such as
+					<ul>
+						<li>Dev work</li>
+						<li>Validate work</li>
+						<li>Review work</li>
+						<li>Doco work</li>
+					</ul>
+					However it must be noted that more often than not teams prefer to stick with the reduced overhead of managing work via commitment and Definition of Done
+				</li>
+			</ul>
+		</p>
+		<h3>Inputs</h3>
+		<p>
+			The inputs to the backlog for prioritisation are Product/Project Epics and Features.  These are broken into Stories & Spikes.  Each Story or Spike should come with
+			<ul>
+				<li>
+					<b>A good name</b>
+				</li>
+				<li>
+					<b>A good description</b>
+				</li>
+				<li>
+					<b>The Primary Responsible Person</b> - The team member that is responsible for its delivery
+				</li>
+				<li>
+					<b>Acceptance Criteria</b>
+				</li>
+				<li>
+					<b>An estimate of effort</b>  - relative to all other items (points) or time based using an approach that accounts for risk associated to size such as the modified fibonacci sequence
+				</li>
+			</ul>
+		</p>
+    </div>
+	<div class="card">
+		<h2>Measuring Backlog Maturity</h2>
+		<h5>Last updated/Quality Checked, Feb, 2022</h5>
+		<p>
+			Some simple measures for backlog maturity are
+			<ul>
+				<li>
+					<b>Team</b> - About midway through the previous iteration the team has met and are happy with the stories for the next iteration.  
+					Also the product/project increment should have all iterations planned with all future iterations having at least high level work items defined
+				</li>
+				<li>
+					<b>Product/Project</b> - Whatever the number of iterations/sprints make up a Product/Project increment, the next increment should have its features fully defined before the start of the last iteration/sprint of the previous increment.
+					This allows the required minimum time necessary to draft all stroies and spikes for the next increment and get the required level of detail ready for iteration/sprint 1.
+					<br>The next product/project increment should have the business context defined for all features with 80% confidence that these are the right features and the following increment should be partially defined
+				</li>
+				<li>
+					<b>Solution/Program</b> - This depends on the cadence your Solution/Program increment follows.  Often this is aligned to the Product/Project Increment but sometimes it may be a multiple of these.
+					The main point to remembre is that the Features cannot be adequately decomposed until the solution/program level capabilities and program epics that encapsulate these have beed defined, agreed across stakehoders and assigned.
+					This means ensuring capabilities affecting the next product/project increment are ready by the start of the preceeding product/project increment is required to allow for optimal Feature and Story breakdown.
+				</li>
+				<li>
+					<b>Portfolio</b> - At this level the "It depends" caveat is at its greatest because this depends on your organisation type.  
+					An it based services organisation serving the telecommunications market will look different to that of a financial services organisation which itself will be closer to that of a Product based organisation.
+					Regardless, the following holds true.  A healthy backlog always 
+					<ul>
+						<li>Has items to do</li> - An organisation that is not constantly evolving its product's and/or service's and/or solution's will not survive
+						<li>Has items listed by priority</li> - Its unlikely a healthy organisation has the people or resources to do everyhting they would like to do right now
+						<li>Has owners to drive the items to completion</li>
+					</ul>
+				</li>
+			</ul>		
+		</p>
+    </div>
+	<div class="card">
+		<h2>In Your Framework</h2>
+		<h5>Last updated/Quality Checked, Feb, 2022</h5>
+		<p>
+			Make use of the various backlogs as they make sense.  Remember all organisations need backlogs at these levels and need the ceremonies that accompany effective management of those backlogs.  
+			Also remember that the more complex the organisation the more likely that a portfolio has many associated solution/program and product/project level constructs and that solutions/programs have many associated product/project level constructs.
+			This holds true going from product/project to the team construct also
+		</p>
+    </div>
+	<div class="card">
+		<h2>Helpful Resources</h2>
+		<h5>Last updated/Quality Checked, Jan, 2022</h5>
+		<p>
+			<div class="fakeimg" style="display: flex; justify-content: center;">
+				<a href="" target="_blank" rel="noopener noreferrer"><img src="" alt="Placeholder1"></a>
+				<a href="" target="_blank" rel="noopener noreferrer"><img src="" alt="Placeholder2"></a>
+				<a href="" target="_blank" rel="noopener noreferrer"><img src="" alt="Placeholder3"></a>
+			</div>
+		</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
