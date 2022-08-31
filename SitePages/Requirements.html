@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="button.css">
+<link rel="stylesheet" href="blog.css">
+</head>
+<body>
+<div class="header">
+	<div class="container">
+		<div class="btn"><a href="../index.html">Home</a></div> 
+	</div>
+	<h2>Requirements</h2>
+</div>
+<div class="row">
+  <div class="leftcolumn">
+ <div class="container">
+ . 
+</div>
+  </div>
+  <div class="middlecolumn">
+    <div class="card">	
+		<h2>Overview</h2>
+		<h5>Last updated/Quality Checked, May, 2022</h5>
+		<p>
+			<div class="agileCallout">
+				Working software <span class="agileEmph">Over</span> Comprehensive documentation
+			</div>
+		</p>
+		<p>
+			Documenting requirements is important.  However the degree to which we go and when and how we drive out those requirements is key to being set up for successful delivery.
+			<br>For example a set of Use Cases that broadly covers end-to-end delivery with associated Epics and Features whereby the Epic and Feature elaboration depends on where on the roadmap timeline they fit.
+		</p>
+    </div>
+	<div id="structure" class="card">
+		<h2>Model</h2>
+		<h5>Last updated/Quality Checked, August, 2022</h5>
+		<p>
+			The requirements model exists primarily to facilitate building the backlog of, primarily, Epics and Features. At its most basic it consists of:
+			<ul>
+				<li>
+					<b>Driving out Business Requirements</b> - Using the best industry standard tools like Customer Journeys
+				</li>
+				<li>
+					<b>Creating items that reflect delivery of business outcomes/value</b> - Epics, Features and Stories
+				</li>
+				<li>
+					<b>Creating items that allow/encourage conversation and alignment on flow of value with customers</b> - Use Cases
+				</li>
+			</ul>
+			<div style="display: flex; justify-content: center;">
+				<img src="../images/RequiremantsCircle.png" alt="The Requirements Model" style="width: 50%">
+				<img src="../images/RequiremantsRelationship.png" alt="Requirements Model Relationships" style="width: 50%">
+			</div>
+		</p>
+		<p>
+			Whatever entities you adopt, it is important to use a consistent language with your stakeholders when you are
+			<ul>
+				<li>
+					<b>Describing Scope</b> - The degree to how much upfront scope and the level it's described at will depend on the maturity of your customers/stakeholders
+				</li>
+				<li>
+					<b>Describing delivery of Value</b> - The value that will be delivered in Delivery Cycles
+				</li>
+			</ul>
+			<i>These backlog model items should also lend themselves naturally to describing the working software/(sub)system so that extensibility and maintainability are ensured</i>
+			<div style="display: flex; justify-content: center;">
+				<img src="../images/BuildingTheBacklog.png" alt="Getting to Epics and Features" style="width: 50%">
+			</div>
+		</p>
+	</div>
+	<div class="card">
+		<h2>Measuring and Traceability</h2>
+		<h5>Last updated/Quality Checked, May, 2022</h5>
+		<p>
+			The Feature is the item to which all other items should be traced or reflected in.  This can be done in, preferably, a work management tool, in a content management tool, assuming some automation is built in, or in more traditional spreadsheet matrices.
+			<br>Upstream 
+			<ul>
+				<li>
+					<b>The Customer Journey a Feature belongs to</b> - if using customer journeys as a tool to understand customer needs
+				</li>
+				<li>
+					<b>The Use Case the Feature relates to</b> 	- depending on the level it is written at, use case could equate to feature
+				</li>
+				<li>
+					<b>The Epic the Feature is a child of</b> 	
+				</li>
+				<li>
+					<b>The Capability the Feature is a part of</b> - This is less commonly used as it is effectively a Feature that crosses Delivery units that is committed to in the same Delivery Cycle  
+				</li>
+			</ul>
+			At Feature Level 
+			<ul>
+				<li>
+					<b>The Business Value</b> 
+				</li>
+				<li>
+					<b>The Acceptance Criteria</b> 	
+				</li>
+				<li>
+					<b>The Feature Functional Level Design Details</b>
+				</li>
+			</ul>
+			Downstream 
+			<ul>
+				<li>
+					<b>The Stories that Deliver the Feature</b> 
+				</li>
+				<li>
+					<b>The Tests that Verify the Feature</b> 	
+				</li>
+				<li>
+					<b>The Defects that challenge the Feature</b> 	
+				</li>
+			</ul>			
+		</p>
+		<p>
+			In a customer centric environment, Requirements gathering is really about figuring out, what things does the customer need<br>
+			When applying metrics to Requirements, what we are really focused on is the Feature as the vehicle that to drive whether we are gathering and delivering the right things.
+			<div class="divT">
+				<table>
+					<tr>
+						<th>Functionality</th>
+						<th>Delivery Cycle (DC) 1</th>
+						<th>DC 2</th>
+						<th>DC 3</th>
+				  </tr>
+				  <tr>
+						<td># Features Planned v Accepted</td>
+						<td></td>
+						<td></td>
+						<td></td>
+				  </tr>
+				  <tr>
+						<td>% Features Accepted</td>
+						<td></td>
+						<td></td>
+						<td></td>
+				  </tr>
+				</table>
+			</div>
+			<br>
+			<div class="divT">
+				<table>
+					<tr>
+						<th>Quality</th>
+						<th>DC 1</th>
+						<th>DC 2</th>
+						<th>DC 3</th>
+				  </tr>
+				  <tr>
+						<td>Open Defects at time of Release - related to requirements</td>
+						<td></td>
+						<td></td>
+						<td></td>
+				  </tr>
+				  <tr>
+						<td>Defects Opened related to Release - related to requirements</td>
+						<td></td>
+						<td></td>
+						<td></td>
+				  </tr>
+				</table>
+			</div>
+			<i>Note:  It is possible that further breakdown on internal v customer might give more value however the true measure of quality is combined</i>
+		</p>
+    </div>
+	<div class="card">
+		<h2>In Your Framework</h2>
+		<h5>Last updated/Quality Checked, May, 2022</h5>
+		<p>
+			Define and make use of the entities that make sense.  Remember all organisations need backlogs to get from ideation to end state value but dont assume everything id a backlog items.  Some items are just tools used to create backlog items e.g. Customer Journeys used to understand a customers Business Requirements.  
+
+		</p>
+    </div>
+	<div class="card">
+		<h2>Helpful Resources</h2>
+		<h5>Last updated/Quality Checked, May, 2022</h5>
+		<p>
+			<div class="fakeimg" style="display: flex; justify-content: center;">
+				<a href="https://www.amazon.co.uk/Agile-Software-Requirements-Enterprise-Development/dp/0321635841/" target="_blank" rel="noopener noreferrer"><img src="../images/AgileSoftwareManagementLeffingwell.png" alt="Agile Requirements"></a>
+			</div>
+		</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
